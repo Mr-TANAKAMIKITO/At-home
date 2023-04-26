@@ -1175,7 +1175,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4813583625752393915}
-  - component: {fileID: 6404966682736794701}
   m_Layer: 0
   m_Name: J_Bip_L_Foot
   m_TagString: Untagged
@@ -1199,20 +1198,6 @@ Transform:
   m_Father: {fileID: 5281045432825123964}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &6404966682736794701
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044086860461392157}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.04
-  m_Height: 0.25
-  m_Direction: 2
-  m_Center: {x: 0, y: -0.1, z: 0.06}
 --- !u!1 &2101693905376999566
 GameObject:
   m_ObjectHideFlags: 0
@@ -4175,8 +4160,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5281045432825123964}
-  - component: {fileID: 2951723445294706652}
   - component: {fileID: 8692363844112743476}
+  - component: {fileID: 2875795787439488234}
   m_Layer: 0
   m_Name: J_Bip_L_LowerLeg
   m_TagString: Untagged
@@ -4209,20 +4194,6 @@ Transform:
   m_Father: {fileID: 4111069056305458017}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &2951723445294706652
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7336716878414994275}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.06
-  m_Height: 0.4
-  m_Direction: 1
-  m_Center: {x: 0, y: -0.23, z: -0.04}
 --- !u!135 &8692363844112743476
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4235,6 +4206,19 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.04
+  m_Center: {x: 0, y: -0.55, z: -0.04}
+--- !u!65 &2875795787439488234
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336716878414994275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.04, y: 0.04, z: 0.04}
   m_Center: {x: 0, y: -0.45, z: -0.04}
 --- !u!1 &7376759361070612425
 GameObject:
@@ -4371,7 +4355,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209679991060048256}
-  - component: {fileID: 7230957374742140519}
   m_Layer: 0
   m_Name: J_Bip_R_Foot
   m_TagString: Untagged
@@ -4395,20 +4378,6 @@ Transform:
   m_Father: {fileID: 1527333467314557981}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &7230957374742140519
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7961113134002340596}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.04
-  m_Height: 0.25
-  m_Direction: 2
-  m_Center: {x: 0, y: -0.1, z: 0.06}
 --- !u!1 &7972420974757848816
 GameObject:
   m_ObjectHideFlags: 0
@@ -4474,8 +4443,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1527333467314557981}
-  - component: {fileID: 7358195983823655600}
-  - component: {fileID: 9112712219074510665}
+  - component: {fileID: 1549830484820900551}
   m_Layer: 0
   m_Name: J_Bip_R_LowerLeg
   m_TagString: Untagged
@@ -4508,21 +4476,7 @@ Transform:
   m_Father: {fileID: 9111298798443970824}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &7358195983823655600
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7992161288104764135}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.06
-  m_Height: 0.4
-  m_Direction: 1
-  m_Center: {x: 0, y: -0.23, z: -0.04}
---- !u!135 &9112712219074510665
+--- !u!135 &1549830484820900551
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4531,10 +4485,10 @@ SphereCollider:
   m_GameObject: {fileID: 7992161288104764135}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.04
-  m_Center: {x: 0, y: -0.45, z: -0.04}
+  m_Center: {x: 0, y: -0.55, z: -0.04}
 --- !u!1 &8171143954309732020
 GameObject:
   m_ObjectHideFlags: 0
