@@ -366,6 +366,7 @@
 "Assets/SAColliderBuilder/Scripts/SABoneColliderChild.cs"
 "Assets/SAColliderBuilder/Scripts/SAMeshCollider.cs"
 "Assets/SAColliderBuilder/Scripts/SAMeshColliderBuilder.cs"
+"Assets/Script/CameraController.cs"
 "Assets/Script/PlayerController.cs"
 -langversion:9.0
 

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    float mPlayerMotionUp=0.5f;
+    float mPlayerMotionDown=-0.5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,19 +17,19 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += new Vector3(0, 0, 0.01f);
+            transform.position += new Vector3(0, 0, mPlayerMotionUp);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.position += new Vector3(0, 0, -0.01f);
+            transform.position += new Vector3(0, 0, mPlayerMotionDown);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position += new Vector3(0.01f, 0, 0);
+            transform.position += new Vector3(mPlayerMotionUp, 0, 0);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position += new Vector3(-0.01f, 0, 0);
+            transform.position += new Vector3(mPlayerMotionDown, 0, 0);
         }
         if (Input.GetButtonDown("Jump"))
         {
