@@ -1760,7 +1760,7 @@ GameObject:
   - component: {fileID: 109477677}
   m_Layer: 0
   m_Name: floor3
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4882,7 +4882,7 @@ GameObject:
   - component: {fileID: 521984584}
   m_Layer: 0
   m_Name: floor1
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9171,8 +9171,8 @@ GameObject:
   - component: {fileID: 999201942}
   - component: {fileID: 999201941}
   m_Layer: 0
-  m_Name: graund
-  m_TagString: Untagged
+  m_Name: ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11259,7 +11259,7 @@ GameObject:
   - component: {fileID: 1180573539}
   m_Layer: 0
   m_Name: goal
-  m_TagString: Untagged
+  m_TagString: goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13578,7 +13578,7 @@ GameObject:
   - component: {fileID: 1470621531}
   m_Layer: 0
   m_Name: save
-  m_TagString: Untagged
+  m_TagString: save
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14137,7 +14137,7 @@ GameObject:
   - component: {fileID: 1553001656}
   m_Layer: 0
   m_Name: start
-  m_TagString: Untagged
+  m_TagString: knife
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16714,7 +16714,7 @@ GameObject:
   - component: {fileID: 1847814730}
   m_Layer: 0
   m_Name: floor2
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

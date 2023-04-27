@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - needle
+  - knife
+  - ground
+  - save
+  - goal
+  - floor
   layers:
   - Default
   - TransparentFX

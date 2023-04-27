@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    float mPlayerMotionUp=0.5f;
-    float mPlayerMotionDown=-0.5f;
+    float mPlayerMotionUp=0.3f;
+    float mPlayerMotionDown=-0.3f;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -36,4 +36,47 @@ public class PlayerController : MonoBehaviour
             transform.position += new Vector3(0,2.0f,  0);
         }
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "needle":
+                Debug.Log("needle");
+                break;
+
+            case "knife":
+                Debug.Log("knife");
+                break;
+
+            case "ground":
+                Debug.Log("ground");
+                break;
+
+            case "save":
+                Debug.Log("save");
+                break;
+
+            case "goal":
+                Debug.Log("goal");
+                break;
+
+            case "floor":
+                Debug.Log("floor");
+                break;
+
+        }
+    }
+
+
+    //void OnCollisionEnter(Collision collision)
+    //{   Debug.Log(collision.gameObject.name);
+    //    // è’ìÀÇµÇΩëäéËÇ…PlayerÉ^ÉOÇ™ïtÇ¢ÇƒÇ¢ÇÈÇ∆Ç´
+    //    if (collision.gameObject.tag == "needle")
+    //    {
+    //    if (collision.gameObject.tag == "needle")
+    //    {
+    //        Debug.Log("needle");
+    //        break;
+    //    }
+    //}
 }
