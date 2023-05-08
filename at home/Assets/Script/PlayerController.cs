@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    float mPlayerMotionUp=0.3f;
-    float mPlayerMotionDown=-0.3f;
+    float mPlayerMotionUp=0.1f;
+    float mPlayerMotionDown=-0.1f;
     // Start is called before the first frame update
     void Start()
     {
